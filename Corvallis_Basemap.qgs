@@ -49,10 +49,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-123.4052804777920187</xmin>
-      <ymin>44.49209897230340971</ymin>
-      <xmax>-123.14729277860789125</xmax>
-      <ymax>44.65103578962956021</ymax>
+      <xmin>-123.32899282821179554</xmin>
+      <ymin>44.50902616457766214</ymin>
+      <xmax>-123.19887138309209718</xmax>
+      <ymax>44.58918924374232517</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -157,6 +157,12 @@
   </legend>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-123.35547213090273999</xmin>
+        <ymin>44.5037578452149063</ymin>
+        <xmax>-123.20386010861187742</xmax>
+        <ymax>44.62190595267580306</ymax>
+      </extent>
       <id>Color_Poly20170221124906750</id>
       <datasource>./corvallis_data/Color_Poly.shp</datasource>
       <keywordList>
@@ -533,8 +539,8 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{8c29b742-eb96-4943-a7ce-3674b824d407}">
-          <rule scalemaxdenom="288894" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " active="0" key="{576facec-74d0-44f0-ae4b-2ea5309d7faf}" scalemindenom="100000">
+        <rules key="{81ed739e-6d0c-48a2-a63f-05e6c5761517}">
+          <rule scalemaxdenom="288894" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " active="0" key="{2bacaa2a-07ec-42ba-8d36-1d1cfb28d40e}" scalemindenom="100000">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="11" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -548,7 +554,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="144446" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " active="0" key="{b4acfe56-25d5-4f6a-975a-d46f2e05feb0}" scalemindenom="72224">
+          <rule scalemaxdenom="144446" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " active="0" key="{b7a98599-022b-4ea7-8b3b-9807d0ebcc7a}" scalemindenom="72224">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="10" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -562,7 +568,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="72223" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " active="0" key="{4fa286f6-f05d-42bf-997d-e6912ba2c734}" scalemindenom="36112">
+          <rule scalemaxdenom="72223" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " active="0" key="{a686ab09-3a93-4673-bf6c-f14ec7294dfb}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0.1875" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="90,92,95,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="13" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -576,7 +582,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " active="0" key="{e6279a4c-2bc8-4ecf-8ff0-08dd39ca5b13}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " active="0" key="{f86a4bc7-2071-4666-b25e-395e1e76b227}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0.296875" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="90,92,95,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="12" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -1173,27 +1179,29 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
         <rules key="{cbcfb3b3-327c-4603-b8cd-3434fff10c07}">
-          <rule checkstate="0" key="{7f9c55cd-55e2-4529-b39f-533ecf3ee8f5}" symbol="0"/>
-          <rule scalemaxdenom="36111" description="HP" filter=" &quot;name&quot;  =  'HP' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="1" scalemindenom="18056" label="HP"/>
-          <rule scalemaxdenom="36111" description="Corvallis High School" filter=" &quot;name&quot;  =   'Corvallis High School' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="2" scalemindenom="18056" label="Corvallis High School"/>
-          <rule scalemaxdenom="36111" description="Reser Stadium" filter=" &quot;name&quot;  =   'Reser Stadium' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="3" scalemindenom="18056" label="Reser Stadium"/>
-          <rule scalemaxdenom="36111" description="WinCo" filter=" &quot;name&quot;  =   'WinCo' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="4" scalemindenom="18056" label="WinCo"/>
-          <rule scalemaxdenom="36111" description="HP" filter=" &quot;name&quot;  =  'Asbury Building' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="5" scalemindenom="18056" label="Asbury Building"/>
-          <rule scalemaxdenom="36111" description="HP" filter=" &quot;name&quot;  =  'Safeway' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="6" scalemindenom="18056" label="Safeway"/>
+          <rule scalemaxdenom="36111" description="HP" filter=" &quot;name&quot;  =  'HP' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="0" scalemindenom="18056" label="HP"/>
+          <rule scalemaxdenom="36111" description="Corvallis High School" filter=" &quot;name&quot;  =   'Corvallis High School' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="1" scalemindenom="18056" label="Corvallis High School"/>
+          <rule scalemaxdenom="36111" description="Reser Stadium" filter=" &quot;name&quot;  =   'Reser Stadium' " key="{768c5931-1fe3-4620-969d-00be830b32db}" symbol="2" scalemindenom="18056" label="Reser Stadium"/>
+          <rule scalemaxdenom="36111" description="Reser Stadium" filter=" &quot;name&quot;  =   'Valley Library' " key="{768c5931-1fe3-4620-969d-00be830b32db}" symbol="3" scalemindenom="18056" label="Reser Stadium"/>
+          <rule scalemaxdenom="36111" description="Reser Stadium" filter=" &quot;name&quot;  =   'Memorial Union' " key="{768c5931-1fe3-4620-969d-00be830b32db}" symbol="4" scalemindenom="18056" label="Reser Stadium"/>
+          <rule scalemaxdenom="36111" description="Reser Stadium" filter=" &quot;name&quot;  =   'Dixon Recreation Center' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="5" scalemindenom="18056" label="Reser Stadium"/>
+          <rule scalemaxdenom="36111" description="WinCo" filter=" &quot;name&quot;  =   'WinCo' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="6" scalemindenom="18056" label="WinCo"/>
+          <rule scalemaxdenom="36111" description="HP" filter=" &quot;name&quot;  =  'Asbury Building' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="7" scalemindenom="18056" label="Asbury Building"/>
+          <rule scalemaxdenom="36111" description="HP" filter=" &quot;name&quot;  =  'Safeway' " key="{7574dc3a-29a4-46d1-b603-8ac4b980b4f7}" symbol="8" scalemindenom="18056" label="Safeway"/>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="219,248,28,255"/>
+              <prop k="color" v="171,177,179,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="80,80,80,255"/>
               <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
               <prop k="style" v="solid"/>
             </layer>
           </symbol>
@@ -1273,6 +1281,36 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="171,177,179,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="80,80,80,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="171,177,179,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="80,80,80,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="171,177,179,255"/>
@@ -1461,6 +1499,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1755,29 +1794,30 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
         <rules key="{a55bd801-c909-48d3-8e10-0d092c6fbb56}">
-          <rule scalemaxdenom="288894" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{039fd9dd-acca-4895-a5ae-6c1245b291bb}" symbol="0" scalemindenom="144447" label="Parks"/>
-          <rule scalemaxdenom="144446" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{039fd9dd-acca-4895-a5ae-6c1245b291bb}" symbol="1" scalemindenom="72224" label="Parks"/>
-          <rule scalemaxdenom="72223" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{c511345c-6f59-4c37-b981-575c31d26dc4}" symbol="2" scalemindenom="36112" label="Parks"/>
-          <rule scalemaxdenom="36111" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{46672018-2389-4cd6-acbd-76b691b9cbcc}" symbol="3" scalemindenom="18056" label="Parks"/>
-          <rule scalemaxdenom="72223" description="Cemetery" filter=" &quot;type&quot;  =  'cemetery' " key="{494f2d34-86e3-4104-9f9a-cb75c024ac28}" symbol="4" scalemindenom="36112" label="Cemetery"/>
-          <rule scalemaxdenom="36111" description="Cemetery" filter=" &quot;type&quot;  =  'cemetery' " key="{0c376c8c-39ba-4420-94dd-ae297c037856}" symbol="5" scalemindenom="18056" label="Cemetery"/>
-          <rule scalemaxdenom="288894" description="Golf Course" filter=" &quot;type&quot;   = 'golf_course' " key="{e90affcb-2d54-4545-a985-f5e5474babf9}" symbol="6" scalemindenom="144447" label="Golf Course"/>
-          <rule scalemaxdenom="144446" description="Golf Course" filter=" &quot;type&quot;   = 'golf_course' " key="{e90affcb-2d54-4545-a985-f5e5474babf9}" symbol="7" scalemindenom="72224" label="Golf Course"/>
-          <rule scalemaxdenom="72223" description="Golf Course" filter=" &quot;type&quot;   = 'golf_course' " key="{e90affcb-2d54-4545-a985-f5e5474babf9}" symbol="8" scalemindenom="36112" label="Golf Course"/>
-          <rule scalemaxdenom="36111" description="Golf Course" filter=" &quot;type&quot;   = 'golf_course' " key="{26da7fa3-3e46-4029-aac9-bda1717a090e}" symbol="9" scalemindenom="18056" label="Golf Course"/>
-          <rule scalemaxdenom="72223" filter=" &quot;type&quot;  =  'commercial' " key="{e97c264f-2d64-4282-a85f-aae4f83f7017}" symbol="10" scalemindenom="36112" label="Commerical"/>
-          <rule scalemaxdenom="36111" filter=" &quot;type&quot;  =  'commercial' " key="{40b6466e-e85b-4cb2-af30-55980abcfbfc}" symbol="11" scalemindenom="18056" label="Commerical"/>
-          <rule scalemaxdenom="36111" filter=" &quot;type&quot;  =  'hospital' " key="{cb61de69-d9f6-4f7c-a6e7-b233a9bba868}" symbol="12" scalemindenom="18056" label="Commerical"/>
-          <rule scalemaxdenom="36111" filter=" &quot;type&quot;  =  'retail' " key="{7a8bcb2a-7d24-469f-8026-18c45a20f060}" symbol="13" scalemindenom="18056" label="Commerical"/>
-          <rule scalemaxdenom="72223" description="OSU" filter=" &quot;type&quot;  =  'university' " key="{fd79153a-19bd-4b39-9475-a21f4a6eece2}" symbol="14" scalemindenom="36112" label="OSU"/>
-          <rule scalemaxdenom="36111" description="OSU" filter=" &quot;type&quot;  =  'university' " key="{39dd5b8a-a4a3-49f3-929d-560bca388616}" symbol="15" scalemindenom="18056" label="OSU"/>
-          <rule scalemaxdenom="36111" description="Student Legacy Park" filter=" &quot;name&quot;  =  'Student Legacy Park' " key="{d127ff09-3b05-4187-a1ac-056e37cc6750}" symbol="16" scalemindenom="18056" label="Student Legacy Park"/>
+          <rule scalemaxdenom="36111" description="Student Legacy Park" filter=" &quot;name&quot;  =  'Student Legacy Park' " key="{6d73d498-566d-40b8-95f4-5868daebb920}" symbol="0" scalemindenom="18056" label="Student Legacy Park"/>
+          <rule scalemaxdenom="288894" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{039fd9dd-acca-4895-a5ae-6c1245b291bb}" symbol="1" scalemindenom="144447" label="Parks"/>
+          <rule scalemaxdenom="144446" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{039fd9dd-acca-4895-a5ae-6c1245b291bb}" symbol="2" scalemindenom="72224" label="Parks"/>
+          <rule scalemaxdenom="72223" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{c511345c-6f59-4c37-b981-575c31d26dc4}" symbol="3" scalemindenom="36112" label="Parks"/>
+          <rule scalemaxdenom="36111" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{46672018-2389-4cd6-acbd-76b691b9cbcc}" symbol="4" scalemindenom="18056" label="Parks"/>
+          <rule scalemaxdenom="72223" description="Cemetery" filter=" &quot;type&quot;  =  'cemetery' " key="{494f2d34-86e3-4104-9f9a-cb75c024ac28}" symbol="5" scalemindenom="36112" label="Cemetery"/>
+          <rule scalemaxdenom="36111" description="Cemetery" filter=" &quot;type&quot;  =  'cemetery' " key="{0c376c8c-39ba-4420-94dd-ae297c037856}" symbol="6" scalemindenom="18056" label="Cemetery"/>
+          <rule scalemaxdenom="288894" description="Golf Course" filter=" &quot;type&quot;   = 'golf_course' " key="{e90affcb-2d54-4545-a985-f5e5474babf9}" symbol="7" scalemindenom="144447" label="Golf Course"/>
+          <rule scalemaxdenom="144446" description="Golf Course" filter=" &quot;type&quot;   = 'golf_course' " key="{e90affcb-2d54-4545-a985-f5e5474babf9}" symbol="8" scalemindenom="72224" label="Golf Course"/>
+          <rule scalemaxdenom="72223" description="Golf Course" filter=" &quot;type&quot;   = 'golf_course' " key="{e90affcb-2d54-4545-a985-f5e5474babf9}" symbol="9" scalemindenom="36112" label="Golf Course"/>
+          <rule scalemaxdenom="36111" description="Golf Course" filter=" &quot;type&quot;   = 'golf_course' " key="{26da7fa3-3e46-4029-aac9-bda1717a090e}" symbol="10" scalemindenom="18056" label="Golf Course"/>
+          <rule scalemaxdenom="72223" filter=" &quot;type&quot;  =  'commercial' " key="{e97c264f-2d64-4282-a85f-aae4f83f7017}" symbol="11" scalemindenom="36112" label="Commerical"/>
+          <rule scalemaxdenom="36111" filter=" &quot;type&quot;  =  'commercial' " key="{40b6466e-e85b-4cb2-af30-55980abcfbfc}" symbol="12" scalemindenom="18056" label="Commerical"/>
+          <rule scalemaxdenom="36111" filter=" &quot;type&quot;  =  'hospital' " key="{cb61de69-d9f6-4f7c-a6e7-b233a9bba868}" symbol="13" scalemindenom="18056" label="Commerical"/>
+          <rule scalemaxdenom="36111" filter=" &quot;type&quot;  =  'retail' " key="{7a8bcb2a-7d24-469f-8026-18c45a20f060}" symbol="14" scalemindenom="18056" label="Commerical"/>
+          <rule scalemaxdenom="72223" description="OSU" filter=" &quot;type&quot;  =  'university' " key="{fd79153a-19bd-4b39-9475-a21f4a6eece2}" symbol="15" scalemindenom="36112" label="OSU"/>
+          <rule scalemaxdenom="36111" description="OSU" filter=" &quot;type&quot;  =  'university' " key="{39dd5b8a-a4a3-49f3-929d-560bca388616}" symbol="16" scalemindenom="18056" label="OSU"/>
+          <rule scalemaxdenom="36111" filter=" &quot;name&quot;  =  'OSU Agricultural Land' " key="{3f63bb88-f830-4c91-af26-9b4eaafbabff}" symbol="17" scalemindenom="18056" label="OSU Ag Land"/>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="169,228,96,255"/>
+              <prop k="color" v="191,228,142,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1807,7 +1847,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="10">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="237,188,131,255"/>
+              <prop k="color" v="191,228,142,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1867,7 +1907,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="199,205,210,255"/>
+              <prop k="color" v="237,188,131,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1897,7 +1937,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="16">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="191,228,142,255"/>
+              <prop k="color" v="199,205,210,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1906,6 +1946,21 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_style" v="no"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="17">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="183,175,149,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
           </symbol>
@@ -1947,7 +2002,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="Pixel"/>
-              <prop k="outline_color" v="255,255,255,0"/>
+              <prop k="outline_color" v="0,0,0,0"/>
               <prop k="outline_style" v="no"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="Pixel"/>
@@ -1972,12 +2027,12 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="191,228,142,255"/>
+              <prop k="color" v="169,228,96,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="Pixel"/>
-              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_color" v="255,255,255,0"/>
               <prop k="outline_style" v="no"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="Pixel"/>
@@ -2032,8 +2087,8 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{2e9ef1ab-ccc6-4757-9c3f-effc7aace451}">
-          <rule scalemaxdenom="72223" description="OSU" filter=" &quot;type&quot;  =  'university' " key="{f6d78502-ee68-4070-8f26-47226885b22c}" scalemindenom="36112">
+        <rules key="{793e1d3a-c51c-4f02-9472-d932222eafff}">
+          <rule scalemaxdenom="72223" description="OSU" filter=" &quot;type&quot;  =  'university' " key="{8d026eae-d461-42e4-a2f1-8fe2404b9850}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="90,92,95,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="11" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2047,21 +2102,21 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="72223" description="Parks" filter=" &quot;type&quot;  = 'Willamette Park' " key="{51f9c015-82a0-4487-8968-faa9ab1db40d}" scalemindenom="36112">
+          <rule scalemaxdenom="72223" description="Parks" filter=" &quot;name&quot;  = 'Willamette Park' " key="{0c4b343b-689f-416f-93bd-a999371de73d}" scalemindenom="36112">
             <settings>
-              <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="62,193,75,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="10" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
+              <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="62,193,75,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="9" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
               </text-style>
               <text-format placeDirectionSymbol="0" multilineAlign="4294967295" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
               <text-buffer bufferSize="0.5" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
               <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
-              <placement repeatDistanceUnit="1" placement="0" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="2" yOffset="0" offsetType="0" placementFlags="10" centroidInside="0" dist="0.1" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement repeatDistanceUnit="1" placement="0" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="1" priority="3" yOffset="0" offsetType="0" placementFlags="10" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
               <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="72223" description="Parks" filter=" &quot;type&quot;  = 'Bald Hill Natural Area' " key="{7daa909d-abd6-4fa6-b3ec-8a2146562d4d}" scalemindenom="36112">
+          <rule scalemaxdenom="72223" description="Parks" filter=" &quot;name&quot;  = 'Bald Hill Natural Area' " key="{e3b39f17-37ee-4b4b-ac1a-cb17fd5b6295}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="62,193,75,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="9" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2075,7 +2130,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="72223" description="Golf Course" filter=" &quot;type&quot;  = 'Corvallis Country Club' " key="{dccfb95b-070a-4f87-9b1f-46ae2ad093ae}" scalemindenom="36112">
+          <rule scalemaxdenom="72223" description="Golf Course" filter=" &quot;name&quot;  = 'Corvallis Country Club' " key="{38a3f8c4-bb3e-4e80-8e56-6254078cc927}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="62,193,75,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="9" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2089,7 +2144,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="72223" description="Golf Course" filter=" &quot;type&quot;  = 'Trysting Tree Golf Club' " key="{44b5af2d-b324-42bc-bfa0-9a9254a28c9f}" scalemindenom="36112">
+          <rule scalemaxdenom="72223" description="Golf Course" filter=" &quot;name&quot;  = 'Trysting Tree Golf Club' " key="{7e200f42-c15c-44ea-85d2-254379116bd4}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="62,193,75,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="9" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2098,12 +2153,12 @@ def my_form_open(dialog, layer, feature):
               <text-buffer bufferSize="0.5" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
               <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
-              <placement repeatDistanceUnit="1" placement="0" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="1" priority="2" yOffset="0" offsetType="0" placementFlags="10" centroidInside="1" dist="0.1" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement repeatDistanceUnit="1" placement="1" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="1" priority="2" yOffset="0" offsetType="0" placementFlags="10" centroidInside="1" dist="0.1" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
               <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="OSU" filter=" &quot;type&quot;  =  'university' " key="{82d6ade4-8223-422f-8dd5-b31485d8b4bc}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="OSU" filter=" &quot;type&quot;  =  'university' " key="{b69abbf0-ae74-4ff8-8109-1953bf51de97}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="90,92,95,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="12" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2117,7 +2172,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{acb5d388-ca5d-4c2d-85f6-81afba7eae3f}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="Parks" filter=" &quot;type&quot;  =  'park' " key="{1684625d-9aa4-4ed4-bb8e-75057a3b9ce2}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="62,193,75,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="10" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2126,12 +2181,12 @@ def my_form_open(dialog, layer, feature):
               <text-buffer bufferSize="0.5" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
               <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
-              <placement repeatDistanceUnit="1" placement="0" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="1" priority="1" yOffset="0" offsetType="0" placementFlags="10" centroidInside="1" dist="0.1" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement repeatDistanceUnit="1" placement="1" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="1" priority="1" yOffset="0" offsetType="0" placementFlags="10" centroidInside="1" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
               <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="Golf Course" filter=" &quot;type&quot;  =    'golf_course'  " key="{30ffaba9-5ce3-4540-8dcc-a95317522795}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="Golf Course" filter=" &quot;type&quot;  =    'golf_course'  " key="{9425cb66-4697-4bb6-9aca-5cdcbbfceba1}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="62,193,75,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="10" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2140,7 +2195,21 @@ def my_form_open(dialog, layer, feature):
               <text-buffer bufferSize="0.5" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
               <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
-              <placement repeatDistanceUnit="1" placement="0" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="1" priority="2" yOffset="0" offsetType="0" placementFlags="10" centroidInside="1" dist="0.1" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement repeatDistanceUnit="1" placement="1" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="1" priority="2" yOffset="0" offsetType="0" placementFlags="10" centroidInside="1" dist="0.1" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
+              <data-defined/>
+            </settings>
+          </rule>
+          <rule key="{54c03426-0bb9-4676-a7c1-c64c246dfdd1}">
+            <settings>
+              <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="1" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="13" fieldName="" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
+                <substitutions/>
+              </text-style>
+              <text-format placeDirectionSymbol="0" multilineAlign="4294967295" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
+              <text-buffer bufferSize="1" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="0" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
+              <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
+              <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
+              <placement repeatDistanceUnit="1" placement="0" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="5" yOffset="0" offsetType="0" placementFlags="10" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
               <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
               <data-defined/>
             </settings>
@@ -2485,8 +2554,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{235600c7-243a-4bb7-aeb3-6351468f17f2}">
-          <rule scalemaxdenom="288894" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " key="{dbe8462b-949a-468e-a6f3-84dff73a2c52}" scalemindenom="100000">
+        <rules key="{865d35f9-bf2b-49b9-b6d3-89cd6d51e08b}">
+          <rule scalemaxdenom="288894" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " key="{a87bb3cd-be42-45a6-b5f7-4a9aab277242}" scalemindenom="100000">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="11" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2500,7 +2569,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="144446" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " key="{f88d7a27-0f5d-454b-a7b0-668e895b2e6e}" scalemindenom="72224">
+          <rule scalemaxdenom="144446" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " key="{607024b7-938b-4c98-a216-4f5b839774c0}" scalemindenom="72224">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="10" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2514,7 +2583,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="72223" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " key="{42911ced-0463-4d7f-8f07-7eaa575223ec}" scalemindenom="36112">
+          <rule scalemaxdenom="72223" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " key="{609089a1-9cc9-4851-9d98-08691352dc3b}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0.1875" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="90,92,95,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="13" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2528,7 +2597,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " key="{91ce7415-8854-459a-98a7-4d8739b77262}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="Corvallis" filter=" &quot;name&quot;  =  'Corvallis' " key="{c5efa915-b5ce-405d-8bf5-5430ee181b95}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0.296875" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="90,92,95,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="12" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -2742,486 +2811,27 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
         <rules key="{0f94f772-a722-4f3f-a4de-48f7f328c95e}">
-          <rule scalemaxdenom="72223" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'living_street'" key="{f196eed8-d29b-45de-848c-60ef13114350}" symbol="0" scalemindenom="36112" label="Tertiary/Residential"/>
-          <rule scalemaxdenom="72223" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'residential' " key="{df57cd5a-2b01-4bda-a79d-dd337f494be8}" symbol="1" scalemindenom="36112" label="Tertiary/Residential"/>
-          <rule scalemaxdenom="72223" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'tertiary' " key="{fac0770f-8a94-465a-8e08-aa5f1cd24a74}" symbol="2" scalemindenom="36112" label="Tertiary/Residential"/>
-          <rule scalemaxdenom="36111" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'living_street'" key="{2ca700ad-9a57-460d-aef0-c6d506069933}" symbol="3" scalemindenom="18056" label="Tertiary/Residential"/>
-          <rule scalemaxdenom="36111" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'residential' " key="{1af74e44-07d4-4f95-8f41-c88b99a35093}" symbol="4" scalemindenom="18056" label="Tertiary/Residential"/>
-          <rule scalemaxdenom="36111" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'tertiary' " key="{781f4400-b9f8-4407-8472-60df5a1fa9d8}" symbol="5" scalemindenom="18056" label="Tertiary/Residential"/>
-          <rule scalemaxdenom="36111" description="HWY" filter=" &quot;type&quot;  =  'primary_link' " key="{4b2b5056-0509-42f6-b128-0845045328fb}" symbol="6" scalemindenom="18056" label="HWY_Link"/>
-          <rule scalemaxdenom="36111" description="HWY" filter=" &quot;type&quot;  =  'primary' " key="{8632113a-5a5b-4c8c-b6a4-3acd585ca4a7}" symbol="7" scalemindenom="18056" label="HWY"/>
-          <rule scalemaxdenom="36111" description="HWY" filter=" &quot;type&quot;  =  'secondary'" key="{dce73b46-464b-40b6-bb3a-8021ef8ffa58}" symbol="8" scalemindenom="18056" label="HWY_Link"/>
-          <rule scalemaxdenom="144446" description="HWY" filter=" &quot;type&quot;  =  'primary_link' " key="{e80e856f-f8e8-4662-ba16-76508dfcadb5}" symbol="9" scalemindenom="72224" label="HWY_Link"/>
-          <rule scalemaxdenom="144446" description="HWY" filter=" &quot;type&quot;  =  'primary' " key="{8bc89831-ee79-4de3-871a-7ce07417953d}" symbol="10" scalemindenom="72224" label="HWY"/>
-          <rule scalemaxdenom="144446" description="HWY" filter=" &quot;type&quot;  =  'secondary'" key="{cbdb8c9a-51e5-441e-8f11-045b4f53c092}" symbol="11" scalemindenom="72224" label="HWY_Link"/>
-          <rule scalemaxdenom="72223" description="HWY" filter=" &quot;type&quot;  =  'primary_link' " key="{47731232-fa6c-4f20-b6f9-68de6c20d45e}" symbol="12" scalemindenom="36112" label="HWY_Link"/>
-          <rule scalemaxdenom="72223" description="HWY" filter=" &quot;type&quot;  =  'primary' " key="{09a81bb9-2ad8-4d82-bb15-52022d1c876c}" symbol="13" scalemindenom="36112" label="HWY"/>
-          <rule scalemaxdenom="72223" description="HWY" filter=" &quot;type&quot;  =  'secondary'" key="{bbe6b8f9-7218-44a1-8061-407fad839029}" symbol="14" scalemindenom="36112" label="HWY_Link"/>
-          <rule scalemaxdenom="144446" description="Railroads" filter=" &quot;type&quot;  =  'rail' " key="{8c76dd04-0849-44ea-9564-62a37eeed528}" symbol="15" scalemindenom="72224" label="Railroads"/>
-          <rule scalemaxdenom="72223" description="Railroads" filter=" &quot;type&quot;  =  'rail' " key="{8c76dd04-0849-44ea-9564-62a37eeed528}" symbol="16" scalemindenom="36112" label="Railroads"/>
+          <rule scalemaxdenom="144446" description="HWY" filter=" &quot;type&quot;  =  'primary_link' " key="{c50836aa-5533-4b5c-87f0-23532b0d7743}" symbol="0" scalemindenom="72224" label="HWY_Link"/>
+          <rule scalemaxdenom="144446" description="HWY" filter=" &quot;type&quot;  =  'primary' " key="{12880b40-a151-4155-812e-80a7df7ce98b}" symbol="1" scalemindenom="72224" label="HWY"/>
+          <rule scalemaxdenom="144446" description="HWY" filter=" &quot;type&quot;  =  'secondary'" key="{eb005883-d971-4fb9-a0ca-4c56e5e5ff47}" symbol="2" scalemindenom="72224" label="HWY_Link"/>
+          <rule scalemaxdenom="144446" description="Railroads" filter=" &quot;type&quot;  =  'rail' " key="{8e26e8b8-4d39-4ac2-82a8-21ec07595929}" symbol="3" scalemindenom="72224" label="Railroads"/>
+          <rule scalemaxdenom="72223" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'living_street'" key="{f196eed8-d29b-45de-848c-60ef13114350}" symbol="4" scalemindenom="36112" label="Tertiary/Residential"/>
+          <rule scalemaxdenom="72223" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'residential' " key="{df57cd5a-2b01-4bda-a79d-dd337f494be8}" symbol="5" scalemindenom="36112" label="Tertiary/Residential"/>
+          <rule scalemaxdenom="72223" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'tertiary' " key="{fac0770f-8a94-465a-8e08-aa5f1cd24a74}" symbol="6" scalemindenom="36112" label="Tertiary/Residential"/>
+          <rule scalemaxdenom="72223" description="HWY" filter=" &quot;type&quot;  =  'primary_link' " key="{aaf5dff3-ba69-45fa-9e33-1ab35c305448}" symbol="7" scalemindenom="36112" label="HWY_Link"/>
+          <rule scalemaxdenom="72223" description="HWY" filter=" &quot;type&quot;  =  'primary' " key="{b9166be9-da84-41de-a85c-81c54ce0df70}" symbol="8" scalemindenom="36112" label="HWY"/>
+          <rule scalemaxdenom="72223" description="HWY" filter=" &quot;type&quot;  =  'secondary'" key="{212b10ec-06f1-4e8c-8265-1d605aa827f7}" symbol="9" scalemindenom="36112" label="HWY_Link"/>
+          <rule scalemaxdenom="72223" description="Railroads" filter=" &quot;type&quot;  =  'rail' " key="{78a47394-5fe4-4a93-ac29-4b13e25cf1aa}" symbol="10" scalemindenom="36112" label="Railroads"/>
+          <rule scalemaxdenom="36111" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'living_street'" key="{2ca700ad-9a57-460d-aef0-c6d506069933}" symbol="11" scalemindenom="18056" label="Tertiary/Residential"/>
+          <rule scalemaxdenom="36111" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'residential' " key="{1af74e44-07d4-4f95-8f41-c88b99a35093}" symbol="12" scalemindenom="18056" label="Tertiary/Residential"/>
+          <rule scalemaxdenom="36111" description="Tertiary/Residential" filter=" &quot;type&quot;  =  'tertiary' " key="{781f4400-b9f8-4407-8472-60df5a1fa9d8}" symbol="13" scalemindenom="18056" label="Tertiary/Residential"/>
+          <rule scalemaxdenom="36111" description="HWY" filter=" &quot;type&quot;  =  'primary_link' " key="{4b2b5056-0509-42f6-b128-0845045328fb}" symbol="14" scalemindenom="18056" label="HWY_Link"/>
+          <rule scalemaxdenom="36111" description="HWY" filter=" &quot;type&quot;  =  'primary' " key="{8632113a-5a5b-4c8c-b6a4-3acd585ca4a7}" symbol="15" scalemindenom="18056" label="HWY"/>
+          <rule scalemaxdenom="36111" description="HWY" filter=" &quot;type&quot;  =  'secondary'" key="{dce73b46-464b-40b6-bb3a-8021ef8ffa58}" symbol="16" scalemindenom="18056" label="HWY_Link"/>
           <rule scalemaxdenom="36111" description="Railroads" filter=" &quot;type&quot;  =  'rail' " key="{61de0b9d-e1f3-433e-9aa7-bbef06d59d28}" symbol="17" scalemindenom="18056" label="Railroads"/>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.75"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="1">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.75"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="10">
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="76,38,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.4"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="18" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="245,255,91,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.4"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="11">
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="76,38,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.5"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="18" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="flat"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.5"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="12">
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="76,38,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.1"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="16" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="245,255,91,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.9"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="13">
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="76,38,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.6"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="18" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="245,255,91,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.6"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="14">
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="76,38,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.1"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="18" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="flat"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.1"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="15">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="125,125,125,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.35"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="16">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="125,125,125,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.2"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="17">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="125,125,125,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.2"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="2">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.75"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="3">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="4">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="5">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="6">
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="76,38,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.5"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="16" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="245,255,91,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.2619"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="7">
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="76,38,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.5"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="18" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="245,255,91,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.5"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="8">
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="76,38,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.5"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="18" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="flat"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="Pixel"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="233,146,74,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.5"/>
-              <prop k="line_width_unit" v="Pixel"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="9">
             <layer pass="0" class="SimpleLine" locked="1">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
@@ -3257,11 +2867,470 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="1">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="76,38,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.4"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="18" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="245,255,91,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.4"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="10">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="125,125,125,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.2"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="11">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="12">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="13">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="14">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="76,38,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.5"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="16" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="245,255,91,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.2619"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="15">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="76,38,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="18" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="245,255,91,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="16">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="76,38,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.5"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="18" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.5"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="17">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="125,125,125,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.2"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="2">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="76,38,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.5"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="18" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.5"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="3">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="125,125,125,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.35"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="4">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.75"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="5">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.75"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="6">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.75"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="7">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="76,38,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.1"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="16" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="245,255,91,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.9"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="8">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="76,38,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.6"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="18" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="245,255,91,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.6"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="9">
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="76,38,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.1"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="18" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="Pixel"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="233,146,74,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.1"/>
+              <prop k="line_width_unit" v="Pixel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{c12d3d79-dd8c-4edd-9741-606490e16e8b}">
-          <rule scalemaxdenom="72223" description="HWY/PRI" filter=" &quot;type&quot;  =  'primary' " key="{888e5ab6-201d-4d35-b6da-09012e9f79ab}" scalemindenom="36112">
+        <rules key="{3147d9bb-f6bb-4cb8-8365-9539a6615f94}">
+          <rule scalemaxdenom="72223" description="HWY/PRI" filter=" &quot;type&quot;  =  'primary' " key="{d7a26196-b4b2-43d1-81be-83ab3d4e17fd}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="8" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -3270,12 +3339,26 @@ def my_form_open(dialog, layer, feature):
               <text-buffer bufferSize="0.4" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
               <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
-              <placement repeatDistanceUnit="1" placement="3" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="5" yOffset="0" offsetType="0" placementFlags="9" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement repeatDistanceUnit="1" placement="3" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="7" yOffset="0" offsetType="0" placementFlags="9" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
               <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="HWY/PRI" filter=" &quot;type&quot;  =  'primary' " key="{e1fe9bb1-6fcb-4f69-bf11-690aa1488363}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="HWY/PRI" filter=" &quot;type&quot;  =  'primary' " key="{9f50c137-2699-42b2-b5c3-c9ad8af58208}" scalemindenom="18056">
+            <settings>
+              <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="9" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
+                <substitutions/>
+              </text-style>
+              <text-format placeDirectionSymbol="0" multilineAlign="4294967295" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
+              <text-buffer bufferSize="0.4" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
+              <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
+              <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
+              <placement repeatDistanceUnit="1" placement="3" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="7" yOffset="0" offsetType="0" placementFlags="9" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
+              <data-defined/>
+            </settings>
+          </rule>
+          <rule scalemaxdenom="36111" description="HWY/PRI" filter=" &quot;type&quot;  =  'primary_link' " key="{e59f56e1-4104-4f4d-ac7d-5a5e3097d85f}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="9" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -3289,21 +3372,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="HWY/PRI" filter=" &quot;type&quot;  =  'primary_link' " key="{bb7e26d8-2860-489b-8514-2b1d08d0832c}" scalemindenom="18056">
-            <settings>
-              <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="9" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
-                <substitutions/>
-              </text-style>
-              <text-format placeDirectionSymbol="0" multilineAlign="4294967295" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
-              <text-buffer bufferSize="0.4" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
-              <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
-              <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
-              <placement repeatDistanceUnit="1" placement="3" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="5" yOffset="0" offsetType="0" placementFlags="9" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
-              <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
-              <data-defined/>
-            </settings>
-          </rule>
-          <rule scalemaxdenom="72223" description="HWY/PRI" filter=" &quot;type&quot;  =   'secondary' " key="{f7892127-ff37-4d48-aa77-acffd948eeaa}" scalemindenom="36112">
+          <rule scalemaxdenom="72223" description="HWY/PRI" filter=" &quot;type&quot;  =   'secondary' " key="{71bc02a1-f8f0-46db-ac5a-d7225f3781ae}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -3312,12 +3381,12 @@ def my_form_open(dialog, layer, feature):
               <text-buffer bufferSize="0.2" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
               <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
-              <placement repeatDistanceUnit="1" placement="3" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="6" yOffset="0" offsetType="0" placementFlags="9" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement repeatDistanceUnit="1" placement="3" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="7" yOffset="0" offsetType="0" placementFlags="9" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
               <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="HWY/PRI" filter=" &quot;type&quot;  =   'secondary' " key="{0b1e5b15-10e3-45fd-9b3b-03c21afbe99b}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="HWY/PRI" filter=" &quot;type&quot;  =   'secondary' " key="{d4239f82-b0f8-45fd-b300-a63f52c06a7a}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="8" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -3331,7 +3400,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="HWY/PRI" filter=" 'residential'  =  &quot;type&quot;   " key="{bf91eb2a-d48f-4728-8edd-08693e6e1095}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="HWY/PRI" filter=" 'residential'  =  &quot;type&quot;   " key="{9121e48a-947f-43ba-b0bb-7f69c87e8ab4}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="8" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -3340,7 +3409,7 @@ def my_form_open(dialog, layer, feature):
               <text-buffer bufferSize="0.2" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
               <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
-              <placement repeatDistanceUnit="1" placement="3" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="2" yOffset="0" offsetType="0" placementFlags="9" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <placement repeatDistanceUnit="1" placement="3" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="3" yOffset="0" offsetType="0" placementFlags="9" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
               <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
               <data-defined/>
             </settings>
@@ -3714,7 +3783,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
             <layer pass="18" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
+              <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="Pixel"/>
@@ -3733,7 +3802,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="1">
             <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
+              <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="Pixel"/>
@@ -3772,7 +3841,7 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{ba42aa0d-7921-4d5a-a2cb-0ed432e5ce91}"/>
+        <rules key="{fdb7f195-0c41-4df7-9e21-565d98dfce19}"/>
       </labeling>
       <customproperties>
         <property key="embeddedWidgets/count" value="0"/>
@@ -4546,8 +4615,8 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{970c48c6-ad1d-410f-8f53-515b150770e0}">
-          <rule scalemaxdenom="36111" description="Water" filter=" &quot;type&quot;  =  'water' " key="{85550c96-f756-485e-a14a-7a68b1310825}" scalemindenom="18056">
+        <rules key="{f91a56a5-b2a4-4b35-a633-509cd5f0c1e6}">
+          <rule scalemaxdenom="36111" description="Water" filter=" &quot;type&quot;  =  'water' " key="{fe09e717-3492-4257-8715-5109d1afa100}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="41,108,231,255" fontSizeInMapUnits="0" isExpression="1" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="9" fieldName="" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -4969,8 +5038,8 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{4c124412-4091-422f-b235-0a964c304b02}">
-          <rule scalemaxdenom="36111" description="Streams" filter=" &quot;type&quot;  =   'stream'  " key="{84f7d5f1-3d8a-4f59-b10d-02623d843cc8}" scalemindenom="18056">
+        <rules key="{f45a8420-51d3-4540-8768-d2938cf72ff5}">
+          <rule scalemaxdenom="36111" description="Streams" filter=" &quot;type&quot;  =   'stream'  " key="{16ed9355-30a5-420e-b97e-b87d414a572f}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="4" textColor="28,105,248,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -4984,7 +5053,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="72223" description="Willamette Label" filter=" &quot;name&quot;  =  'Willamette River' " active="0" key="{9ba5e79f-27a7-4886-9f03-43ce10e9cd8f}" scalemindenom="36112">
+          <rule scalemaxdenom="72223" description="Willamette Label" filter=" &quot;name&quot;  =  'Willamette River' " active="0" key="{a12ba6aa-0778-403f-92c4-f653ba165777}" scalemindenom="36112">
             <settings>
               <text-style fontItalic="0" fontFamily="Helvetica" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="5,41,246,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -4998,7 +5067,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="Willamette Label" filter=" &quot;name&quot;  =  'Willamette River' " key="{93a68107-2c32-4c74-b310-9b317eba478e}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="Willamette Label" filter=" &quot;name&quot;  =  'Willamette River' " key="{3adf2ec7-01d8-49b1-a715-4a11307bcb9f}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="5,63,252,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="8" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -5012,7 +5081,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule scalemaxdenom="36111" description="Marys Label" filter=" &quot;name&quot;  =  'Marys River' " key="{dae31739-6840-40a1-a4e9-7b1fbcabb74e}" scalemindenom="18056">
+          <rule scalemaxdenom="36111" description="Marys Label" filter=" &quot;name&quot;  =  'Marys River' " key="{112c39d9-dc28-441c-98af-bf09380873c7}" scalemindenom="18056">
             <settings>
               <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="5,63,252,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="name" namedStyle="" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
